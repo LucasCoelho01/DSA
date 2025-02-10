@@ -8,18 +8,23 @@ public class Main {
         System.out.println(binarySearch.search(intArray, 5));*/
 
         // Testing singly linked list
-        SinglyLinkedList singlyLinkedList = new SinglyLinkedList();
+        /*SinglyLinkedList singlyLinkedList = new SinglyLinkedList();
         singlyLinkedList.addBack(3);
         singlyLinkedList.addBack(2);
         singlyLinkedList.addBack(1);
-//        singlyLinkedList.showAllValues();
-
-        /*singlyLinkedList.removeFront();
-        singlyLinkedList.showAllValues();*/
-
-        singlyLinkedList.removeBack();
         singlyLinkedList.removeBack();
         singlyLinkedList.removeFront();
-        singlyLinkedList.showAllValues();
+        singlyLinkedList.showAllValues();*/
+
+        // Testing doubly linked list
+        DoublyLinkedList doublyLinkedList = new DoublyLinkedList();
+        doublyLinkedList.addBack(1);
+        doublyLinkedList.addBack(2);
+        doublyLinkedList.addBack(3);
+        doublyLinkedList.removeBack();
+        doublyLinkedList.removeBack();
+        doublyLinkedList.removeBack();
+
+        doublyLinkedList.showAllValues();
     }
 }
