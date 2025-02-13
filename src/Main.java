@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
 
     private static BinarySearch binarySearch = new BinarySearch();
@@ -17,14 +19,19 @@ public class Main {
         singlyLinkedList.showAllValues();*/
 
         // Testing doubly linked list
-        DoublyLinkedList doublyLinkedList = new DoublyLinkedList();
+        /*DoublyLinkedList doublyLinkedList = new DoublyLinkedList();
         doublyLinkedList.addBack(1);
         doublyLinkedList.addBack(2);
         doublyLinkedList.addBack(3);
         doublyLinkedList.removeBack();
         doublyLinkedList.removeBack();
         doublyLinkedList.removeBack();
+        doublyLinkedList.showAllValues();*/
 
-        doublyLinkedList.showAllValues();
+        // Testing bubble sort
+        BublleSort bublleSort = new BublleSort();
+        int[] array = {1, 2, 3, 5, 4};
+        int[] arraySorted = bublleSort.sort(array);
+        System.out.println(Arrays.toString(arraySorted));
     }
 }
