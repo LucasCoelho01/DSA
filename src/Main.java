@@ -29,9 +29,15 @@ public class Main {
         doublyLinkedList.showAllValues();*/
 
         // Testing bubble sort
-        BublleSort bublleSort = new BublleSort();
+        /*BublleSort bublleSort = new BublleSort();
         int[] array = {1, 2, 3, 5, 4};
         int[] arraySorted = bublleSort.sort(array);
+        System.out.println(Arrays.toString(arraySorted));*/
+
+        // Testing quick sort
+        QuickSort quickSort = new QuickSort();
+        int[] array = {4, 2, 8, 7, 1, 5, 3, 6};
+        int[] arraySorted = quickSort.sort(array);
         System.out.println(Arrays.toString(arraySorted));
     }
 }
