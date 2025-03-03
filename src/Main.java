@@ -35,9 +35,15 @@ public class Main {
         System.out.println(Arrays.toString(arraySorted));*/
 
         // Testing quick sort
-        QuickSort quickSort = new QuickSort();
+        /*QuickSort quickSort = new QuickSort();
         int[] array = {4, 2, 8, 7, 1, 5, 3, 6};
         int[] arraySorted = quickSort.sort(array);
+        System.out.println(Arrays.toString(arraySorted));*/
+
+        // Testing merge sort
+        MergeSort mergeSort = new MergeSort();
+        int[] array = {4, 2, 8, 7, 1, 5, 3, 6};
+        int[] arraySorted = mergeSort.sort(array);
         System.out.println(Arrays.toString(arraySorted));
     }
 }
