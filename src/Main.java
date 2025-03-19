@@ -41,9 +41,18 @@ public class Main {
         System.out.println(Arrays.toString(arraySorted));*/
 
         // Testing merge sort
-        MergeSort mergeSort = new MergeSort();
+        /*MergeSort mergeSort = new MergeSort();
         int[] array = {4, 2, 8, 7, 1, 5, 3, 6};
         int[] arraySorted = mergeSort.sort(array);
-        System.out.println(Arrays.toString(arraySorted));
+        System.out.println(Arrays.toString(arraySorted));*/
+
+        // Testing Binary Tree
+        BinaryTree binaryTree = new BinaryTree(new NodeBinaryTree(30));
+        binaryTree.insert(15);
+        binaryTree.insert(45);
+        binaryTree.insert(7);
+        binaryTree.insert(19);
+
+        System.out.println(binaryTree.search(8));
     }
 }
